@@ -15,6 +15,9 @@
   ***Download file from local Colab
   
 !ls
+
 from google.colab import files
+
 files.download('test_modified.csv')
+
 files.download('train_modified.csv')
