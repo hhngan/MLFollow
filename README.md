@@ -11,3 +11,10 @@
   -->  (?raw=true)
   
   https://raw.githubusercontent.com/hhngan/MLFollow/master/data/LoanProblem_Test.csv 
+  
+  ***Download file from local Colab
+  
+!ls
+from google.colab import files
+files.download('test_modified.csv')
+files.download('train_modified.csv')
